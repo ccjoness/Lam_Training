@@ -1,22 +1,22 @@
 Day 2 – Django
 
 -   Hour 1:
-    -   Django Overview.md
-    -   Django Quickstart.md
+    -   [Django Overview.md](training_docs/Django%20Overview.md)
+    -   [Django Quickstart.md](training_docs/Django%20Quickstart.md)
 -   Hour 2:
-    -   Routes.md
-    -   Views.md
-    -   Templates.md
+    -   [Routes.md](training_docs/Routes.md)
+    -   [Views.md](training_docs/Views.md)
+    -   [Templates.md](training_docs/Templates.md)
 -   Hour 3:
-    -   Models.md
-        -   Databases.md
+    -   [Models.md](training_docs/Models.md)
+        -   [Databases.md](training_docs/Databases.md)
 -   Hour 4:
     -   Lunch
 -   Hour 5:
-    -   User Management.md
+    -   [User Management.md](training_docs/User%20Management.md)
 -   Hour 6:
-    -   Media Files.md
-    -   Forms.md
+    -   [Media Files.md](training_docs/Media%20Files.md)
+    -   [Forms.md](training_docs/Forms.md)
 -   Hour 7 & 8:
     -   Create your own blog site.
         -   Views:
