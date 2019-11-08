@@ -71,3 +71,28 @@ The TestCase class provides several assert methods to check for and report failu
 | assertNotIn(a, b)         | a not in b           | 3.1    |
 | assertIsInstance(a, b)    | isinstance(a, b)     | 3.2    |
 | assertNotIsInstance(a, b) | not isinstance(a, b) | 3.2    |
+
+It is also possible to check the production of exceptions, warnings, and log messages using the following methods:
+
+| Method                                        | Checks that                                                    | New in |
+|-----------------------------------------------|----------------------------------------------------------------|--------|
+| assertRaises(exc, fun, *args, **kwds)         | fun(*args, **kwds) raises exc                                  |        |
+| assertRaisesRegex(exc, r, fun, *args, **kwds) | fun(*args, **kwds) raises exc and the message matches regex r  | 3.1    |
+| assertWarns(warn, fun, *args, **kwds)         | fun(*args, **kwds) raises warn                                 | 3.2    |
+| assertWarnsRegex(warn, r, fun, *args, **kwds) | fun(*args, **kwds) raises warn and the message matches regex r | 3.2    |
+| assertLogs(logger, level)                     | The with block logs on logger with minimum level               | 3.4    |
+
+
+There are also other methods used to perform more specific checks, such as:
+
+| Method                     | Checks that                                                                   | New in |
+|----------------------------|-------------------------------------------------------------------------------|--------|
+| assertAlmostEqual(a, b)    | round(a-b, 7) == 0                                                            |        |
+| assertNotAlmostEqual(a, b) | round(a-b, 7) != 0                                                            |        |
+| assertGreater(a, b)        | a > b                                                                         | 3.1    |
+| assertGreaterEqual(a, b)   | a >= b                                                                        | 3.1    |
+| assertLess(a, b)           | a < b                                                                         | 3.1    |
+| assertLessEqual(a, b)      | a <= b                                                                        | 3.1    |
+| assertRegex(s, r)          | r.search(s)                                                                   | 3.1    |
+| assertNotRegex(s, r)       | not r.search(s)                                                               | 3.2    |
+| assertCountEqual(a, b)     | a and b have the same elements in the same number, regardless of their order. | 3.2    |
