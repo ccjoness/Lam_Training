@@ -32,12 +32,12 @@ You can think of SQL databases like a spreadsheet that is really strict with wha
 
 **Car table:**
 
-| ID | Year | Make  | Model |
-| -- | ---- | ----- | ---- |
-| 1 | 1999 | 'Honda' | 'Civic' |
-| 2 | 1985 | 'Subaru' | 'Leone' |
-| 3 | 1982 | 'Chevrolet' | 'Camaro' |
-| 4 | 1999 | 'Honda' | 'Civic' |
+| ID | Year | Make        | Model    |
+|----|------|-------------|----------|
+| 1  | 1999 | 'Honda'     | 'Civic'  |
+| 2  | 1985 | 'Subaru'    | 'Leone'  |
+| 3  | 1982 | 'Chevrolet' | 'Camaro' |
+| 4  | 1999 | 'Honda'     | 'Civic'  |
 
 If, for instance, I tried to create this new car entry:
 
@@ -50,16 +50,16 @@ This relational database wouldn't allow it, since we aren't conforming to the da
 If I tried to create this new car entry:
 
 | ID | Year | Make  | Model | License # |
-| -- | ---- | ----- | ----- | --------- | 
-| 5 | 1984 | 'Ford' | 'Thunderbird' | 606XED |
+|----| ---- | ----- | ----- | --------- | 
+| 5  | 1984 | 'Ford' | 'Thunderbird' | 606XED |
 
 This relational database wouldn't allow it! All entries must follow the rules outlined in the schema. I would instead need to update the schema with a new attribute `LICENSE #` and go back and update the values of all existing car entries with a default value.
 
 If I tried to create this new car entry:
 
-| ID | Year | Make  | Model |
-| -- | ---- | ----- | ---- |
-| 1 | 2009 | 'Toyota' | 'Camry' |
+| ID | Year | Make     | Model   |
+|----|------|----------|---------|
+| 1  | 2009 | 'Toyota' | 'Camry' |
 
 This relational database wouldn't allow it, since `ID` is a **primary key**. 
 A primary key guarantees that each entry is a *unique* value for that table. If we refer to the car table above, we can see that we already have an entry with the ID of 1.
@@ -81,7 +81,7 @@ Notice how there's a lot of repetition going on here. We can *normalize* this ta
 The `Car` table stays the same as we defined above:
 
 | ID | Year | Make  | Model |
-| -- | ---- | ----- | ---- |
+|----| ---- | ----- | ---- |
 | 1 | 1999 | 'Honda' | 'Civic' |
 | 2 | 1985 | 'Subaru' | 'Leone' |
 | 3 | 1982 | 'Chevrolet' | 'Camaro' |
@@ -90,7 +90,7 @@ The `Car` table stays the same as we defined above:
 `Customer` table:
 
 | ID | Last Name | First Name | Phone | Email |
-| -- | --------- | ---------- | ----- | ------|
+|--- | --------- | ---------- | ----- | ------|
 | 1 | 'Jorgo' | 'Jorge' | 555-555-5555 | jorgeo@jorgej.org |
 | 2 | 'Yorgus' | 'Bjorn' | 555-666-6666 | bjornus@bjorny.org |
 | 3 | 'Devito' | 'Dangus' | 555-777-7777 | mantistoboggan@devito.me |
