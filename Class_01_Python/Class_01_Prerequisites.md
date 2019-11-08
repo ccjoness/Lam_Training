@@ -1,0 +1,40 @@
+Class 1 - Python - Prerequisites:
+
+
+-   Pep 8 - Python Style Guide:
+    -   <https://realpython.com/python-pep8/>
+-   Data Types and Their Methods:
+    -   Variables
+    -   Strings
+    -   Numbers and Math:
+        -   Operators
+        -   Integers
+        -   Floats
+    -   Lists
+    -   Tuples
+    -   Dictionaries
+-   Conditionals and Boolean Logic in Python:
+    -   Boolean operators:
+        -   ==
+        -   !=
+        -   \>=
+        -   \<=
+        -   and
+        -   is
+        -   or
+        -   not
+    -   Conditional Blocks:
+        -   if
+        -   else
+        -   elif
+-   Loops: 
+    -   for
+    -   while
+    -   continue
+    -   break
+-   Functions
+    -   def
+    -   arguments
+    -   \*args
+    -   \*\*kwargs
+    -   Return
