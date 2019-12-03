@@ -3,7 +3,7 @@ Class 1 - Python:
 
     -   Hour 1:
         -   Setup and answer questions.
-        -   Run hello world script
+        -   [Writing Resilient Python](training_docs/writing_resilient_python.md)
         -   Python classes / OOP:
             -   Initializers:
                 -   [Classes.md](training_docs/Classes.md)
