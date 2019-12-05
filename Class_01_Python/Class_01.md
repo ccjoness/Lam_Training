@@ -4,6 +4,7 @@ Class 1 - Python:
     -   Hour 1:
         -   Setup and answer questions.
         -   [Writing Resilient Python](training_docs/writing_resilient_python.md)
+        -   [Python Security](training_docs/Python_Security.md)
         -   Python classes / OOP:
             -   Initializers:
                 -   [Classes.md](training_docs/Classes.md)

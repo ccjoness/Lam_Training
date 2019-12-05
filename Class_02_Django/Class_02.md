@@ -2,6 +2,7 @@ Day 2 – Django
 
 -   Hour 1:
     -   [Django Overview.md](training_docs/Django%20Overview.md)
+    -   [Django Security.md](training_docs/Django_Security.md)
     -   [Django Quickstart.md](training_docs/Django%20Quickstart.md)
 -   Hour 2:
     -   [Routes.md](training_docs/Routes.md)
